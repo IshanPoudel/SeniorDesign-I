@@ -43,12 +43,16 @@ const NavBar = () => {
                     </nav>
                 </div>
                 <div className="flex justify-end gap-2">
-                    <button className="text-indigo-800 group rounded-full font-medium text-sm hover:shadow-indigo-800/30 hover:bg-indigo-800 hover:text-white/90 bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:text-white dark:bg-zinc-800/90 dark:hover:bg-indigo-800 dark:ring-white/10 dark:hover:ring-white/20">
-                        Log In
-                    </button>
-                    <button className="text-white group rounded-full font-medium text-sm hover:shadow-indigo-800/30 bg-indigo-800 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-indigo-800 dark:ring-white/10 dark:hover:ring-white/20">
-                        Sign Up
-                    </button>
+                    <a href='/login'>
+                        <button className="text-indigo-800 group rounded-full font-medium text-sm hover:shadow-indigo-800/30 hover:bg-indigo-800 hover:text-white/90 bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:text-white dark:bg-zinc-800/90 dark:hover:bg-indigo-800 dark:ring-white/10 dark:hover:ring-white/20">
+                            Log In
+                        </button>
+                    </a>
+                    <a href='/signup'>
+                        <button className="text-white group rounded-full font-medium text-sm hover:shadow-indigo-800/30 bg-indigo-800 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-indigo-800 dark:ring-white/10 dark:hover:ring-white/20">
+                            Sign Up
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
