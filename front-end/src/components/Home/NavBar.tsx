@@ -1,13 +1,12 @@
 import React from "react";
 import Image from 'next/image'
 import Logo from "../../images/trademinds_transparent.png";
-import 'tailwindcss/tailwind.css';
 
 const NavBar = () => {
     return (
-        <div className="h-16 bg-zinc-50 dark:bg-black">
+        <div className="h-20 bg-zinc-50 dark:bg-black">
             <div className="h-full flex flex-1 justify-end md:justify-center items-center">
-                <div>
+                <div className="ml-5">
                     <Image src={Logo} alt="Logo" width={60} height={60}></Image>
                 </div>
                 <div className="flex flex-1 justify-center items-center">
@@ -42,7 +41,7 @@ const NavBar = () => {
                         </ul>
                     </nav>
                 </div>
-                <div className="flex justify-end gap-2">
+                <div className="flex justify-end gap-2 mr-5">
                     <a href='/login'>
                         <button className="text-indigo-800 group rounded-full font-medium text-sm hover:shadow-indigo-800/30 hover:bg-indigo-800 hover:text-white/90 bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:text-white dark:bg-zinc-800/90 dark:hover:bg-indigo-800 dark:ring-white/10 dark:hover:ring-white/20">
                             Log In
