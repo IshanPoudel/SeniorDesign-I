@@ -14,7 +14,7 @@
     "@nextui-org/react": "^2.2.9",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "^10.4.17",
     "framer-motion": "^11.0.3",
     "highcharts": "^11.3.0",
     "highcharts-react-official": "^3.2.1",
