@@ -24,22 +24,22 @@ const NavBar = () => {
                             </li>
                             <li>
                                 <a className="relative block px-3 py-2 transition hover:text-indigo-800 dark:hover:text-indigo-700" href="/articles">
-                                    Articles
+                                    ML Ranking
                                 </a>
                             </li>
                             <li>
                                 <a className="relative block px-3 py-2 transition hover:text-indigo-800 dark:hover:text-indigo-700" href="/projects">
-                                    Projects
+                                    Stocks
                                 </a>
                             </li>
                             <li>
                                 <a className="relative block px-3 py-2 transition hover:text-indigo-800 dark:hover:text-indigo-700" href="/speaking">
-                                    Speaking
+                                    Members
                                 </a>
                             </li>
                             <li>
                                 <a className="relative block px-3 py-2 transition hover:text-indigo-800 dark:hover:text-indigo-700" href="/uses">
-                                    Uses
+                                    Contact
                                 </a>
                             </li>
                         </ul>

@@ -2,9 +2,8 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
+        <div className="h-screen bg-amber-700">
             <h1>Contact Page</h1>
-            <p>This is the contact page.</p>
         </div>
     );
 };
