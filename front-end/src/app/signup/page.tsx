@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import BackgroundImage from "../../images/signup_background.png";
+
 const Signup = () => {
     return (
         <div className="flex h-screen">
@@ -28,11 +29,12 @@ const Signup = () => {
                     type="submit"
                     className="px-4 py-2 bg-indigo-800 text-white border-none cursor-pointer rounded-lg hover:bg-indigo-700"
                 >
-                    Signup
+                    Sign Up
                 </button>
             </form>
             </div>
       </div>
     )
 }
+
 export default Signup;

@@ -28,6 +28,21 @@ module.exports = {
       textColor: ['dark'],
     },
   },
-  plugins: [nextui()],
+  plugins: [
+    nextui({
+      themes: {
+        light: {
+          colors: {
+            primary: "#283593",
+          }
+        },
+        dark: {
+          colors: {
+            primary: "#283593",
+          }
+        },
+      },
+    }),
+  ]
 }
 
