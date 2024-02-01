@@ -2,7 +2,7 @@ import React from 'react';
 
 const StockCharts: React.FC = () => {
     return (
-        <div>
+        <div className="h-screen bg-amber-300">
             Stock Charts
         </div>
         // <div id="animation-carousel" className="relative w-full" data-carousel="static">
