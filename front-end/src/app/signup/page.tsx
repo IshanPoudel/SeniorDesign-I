@@ -18,7 +18,7 @@ const Signup = () => {
         <h2 className="text-2xl font-bold mb-8 text-indigo-800 dark:text-indigo-400">
           Ready for new adventures
         </h2>
-        <form className="flex flex-col mb-8">
+        <form className="flex flex-col mb-8" action="/dashboard">
           <input
             type="text"
             className="mb-4 p-2 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600"

@@ -31,8 +31,7 @@
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "styled-jsx": "^5.1.2",
-    "typeface-montserrat": "^1.1.13",
-    "yarn": "^1.22.21"
+    "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
     "@types/node": "^20",

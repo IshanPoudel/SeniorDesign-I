@@ -1,16 +1,11 @@
-import HeroSection from "../components/Home/HeroSection";
 import NavBar from "../components/Home/NavBar";
-import StockCharts from "../components/Home/StockCharts";
-import Contact from "../components/Home/Contact";
-import MLRanking from "../components/Home/MLranking";
+import LandingSection from "../components/Home/LandingSection";
+
 export default function Home() {
   return (
     <main>
       <NavBar />
-      <HeroSection />
-      <MLRanking />
-      <StockCharts />
-      <Contact />
+      <LandingSection />
     </main>
   );
 }
